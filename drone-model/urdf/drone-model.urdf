@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="drone-model">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0140657758513601 0.00527611174374507 0.375008844411273"
+        rpy="0 0 0" />
+      <mass
+        value="0.564850476674269" />
+      <inertia
+        ixx="0.000698879569637969"
+        ixy="-1.23123284540812E-07"
+        ixz="-6.65021323378972E-08"
+        iyy="0.00161063553511403"
+        iyz="-1.18577675792886E-07"
+        izz="0.000968681201707845" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="prop1 ">
+    <inertial>
+      <origin
+        xyz="2.08721058603256E-07 0.000919099852639438 -9.96103941314219E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.0139131122891217" />
+      <inertia
+        ixx="3.38203114107491E-05"
+        ixy="-9.19080146603625E-12"
+        ixz="-4.32453209489338E-07"
+        iyy="3.39693732732608E-05"
+        iyz="-1.12220523538876E-10"
+        izz="3.81818798239142E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/prop1 .STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/prop1 .STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop1_joint"
+    type="fixed">
+    <origin
+      xyz="-0.17274 -0.53438 0.065147"
+      rpy="1.5708 0 -1.2852" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop1 " />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="prop2">
+    <inertial>
+      <origin
+        xyz="1.32533671162727E-07 -0.000142709615910383 -9.4455130754123E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.0139130415745406" />
+      <inertia
+        ixx="3.38206740379844E-05"
+        ixy="1.71735381628985E-11"
+        ixz="-4.32268971785081E-07"
+        iyy="3.39697555050111E-05"
+        iyz="-1.19600289354538E-10"
+        izz="3.81840950862612E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/prop2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/prop2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop2_joint"
+    type="fixed">
+    <origin
+      xyz="-0.17255 -0.21656 0.065147"
+      rpy="-1.5708 0 2.578" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop2" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="prop3">
+    <inertial>
+      <origin
+        xyz="9.02194842405946E-06 -0.00408090014948388 -4.22760387003285E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.0139131122835912" />
+      <inertia
+        ixx="7.29329542592946E-06"
+        ixy="9.8105634506034E-11"
+        ixz="1.35472538331189E-05"
+        iyy="3.39694135121054E-05"
+        iyz="-5.92108103753147E-11"
+        izz="2.6908875213484E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/prop3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/prop3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop3_joint"
+    type="fixed">
+    <origin
+      xyz="0.14531 -0.21648 0.070147"
+      rpy="1.5708 0 -0.175" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop3" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="prop4">
+    <inertial>
+      <origin
+        xyz="-8.79272399290087E-06 -0.00485729038757171 -3.45221945691199E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.0139130415780447" />
+      <inertia
+        ixx="5.47519633980343E-06"
+        ixy="1.17204680334852E-10"
+        ixz="-1.20233293186157E-05"
+        iyy="3.39697554824926E-05"
+        iyz="2.93748880354678E-11"
+        izz="2.87273186265083E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/prop4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://drone-model/meshes/prop4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop4_joint"
+    type="fixed">
+    <origin
+      xyz="0.1454 -0.53438 0.070147"
+      rpy="1.5708 0 -1.7493" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop4" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+</robot>
