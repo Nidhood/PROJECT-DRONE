@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/lib/libhector_quadrotor_propulsion.pdb"
-  "/home/nidhood/drone_ws/devel/lib/libhector_quadrotor_propulsion.so"
+  "/app/drone_ws/devel/lib/libhector_quadrotor_propulsion.pdb"
+  "/app/drone_ws/devel/lib/libhector_quadrotor_propulsion.so"
   "CMakeFiles/hector_quadrotor_propulsion.dir/src/quadrotor_propulsion.cpp.o"
 )
 

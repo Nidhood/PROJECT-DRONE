@@ -1,4 +1,4 @@
-prefix=/home/nidhood/drone_ws/install
+prefix=/app/drone_ws/install
 
 Name: hector_uav_msgs
 Description: Description of hector_uav_msgs

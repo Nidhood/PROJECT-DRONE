@@ -1,8 +1,8 @@
-# Install script for directory: /home/nidhood/drone_ws/src/hector_quadrotor_gazebo
+# Install script for directory: /app/drone_ws/src/hector_quadrotor_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nidhood/drone_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/app/drone_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,31 +38,31 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nidhood/drone_ws/build/hector_quadrotor_gazebo/catkin_generated/installspace/hector_quadrotor_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/app/drone_ws/build/hector_quadrotor_gazebo/catkin_generated/installspace/hector_quadrotor_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_gazebo/cmake" TYPE FILE FILES
-    "/home/nidhood/drone_ws/build/hector_quadrotor_gazebo/catkin_generated/installspace/hector_quadrotor_gazeboConfig.cmake"
-    "/home/nidhood/drone_ws/build/hector_quadrotor_gazebo/catkin_generated/installspace/hector_quadrotor_gazeboConfig-version.cmake"
+    "/app/drone_ws/build/hector_quadrotor_gazebo/catkin_generated/installspace/hector_quadrotor_gazeboConfig.cmake"
+    "/app/drone_ws/build/hector_quadrotor_gazebo/catkin_generated/installspace/hector_quadrotor_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_gazebo" TYPE FILE FILES "/home/nidhood/drone_ws/src/hector_quadrotor_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_gazebo" TYPE FILE FILES "/app/drone_ws/src/hector_quadrotor_gazebo/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_gazebo" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/hector_quadrotor_gazebo/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_gazebo" TYPE DIRECTORY FILES "/app/drone_ws/src/hector_quadrotor_gazebo/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_gazebo" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/hector_quadrotor_gazebo/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_gazebo" TYPE DIRECTORY FILES "/app/drone_ws/src/hector_quadrotor_gazebo/urdf")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nidhood/drone_ws/build/hector_quadrotor_gazebo/urdf/cmake_install.cmake")
+  include("/app/drone_ws/build/hector_quadrotor_gazebo/urdf/cmake_install.cmake")
 
 endif()
 

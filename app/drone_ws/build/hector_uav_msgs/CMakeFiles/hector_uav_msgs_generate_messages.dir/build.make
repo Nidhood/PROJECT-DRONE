@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nidhood/drone_ws/src
+CMAKE_SOURCE_DIR = /app/drone_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nidhood/drone_ws/build
+CMAKE_BINARY_DIR = /app/drone_ws/build
 
 # Utility rule file for hector_uav_msgs_generate_messages.
 
@@ -63,10 +63,10 @@ hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/build: hector_u
 .PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/build
 
 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/clean:
-	cd /home/nidhood/drone_ws/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/hector_uav_msgs_generate_messages.dir/cmake_clean.cmake
+	cd /app/drone_ws/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/hector_uav_msgs_generate_messages.dir/cmake_clean.cmake
 .PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/clean
 
 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/depend:
-	cd /home/nidhood/drone_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nidhood/drone_ws/src /home/nidhood/drone_ws/src/hector_uav_msgs /home/nidhood/drone_ws/build /home/nidhood/drone_ws/build/hector_uav_msgs /home/nidhood/drone_ws/build/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /app/drone_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /app/drone_ws/src /app/drone_ws/src/hector_uav_msgs /app/drone_ws/build /app/drone_ws/build/hector_uav_msgs /app/drone_ws/build/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/depend
 

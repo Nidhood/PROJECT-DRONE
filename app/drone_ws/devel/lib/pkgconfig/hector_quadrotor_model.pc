@@ -1,8 +1,8 @@
-prefix=/home/nidhood/drone_ws/devel
+prefix=/app/drone_ws/devel
 
 Name: hector_quadrotor_model
 Description: Description of hector_quadrotor_model
 Version: 0.3.5
-Cflags: -I/home/nidhood/drone_ws/src/hector_quadrotor_model/include -I/usr/include
+Cflags: -I/app/drone_ws/src/hector_quadrotor_model/include -I/usr/include
 Libs: -L${prefix}/lib -lhector_quadrotor_propulsion -lhector_quadrotor_aerodynamics /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 Requires: geometry_msgs hector_uav_msgs roscpp

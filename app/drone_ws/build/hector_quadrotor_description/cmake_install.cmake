@@ -1,8 +1,8 @@
-# Install script for directory: /home/nidhood/drone_ws/src/hector_quadrotor_description
+# Install script for directory: /app/drone_ws/src/hector_quadrotor_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nidhood/drone_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/app/drone_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,29 +38,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nidhood/drone_ws/build/hector_quadrotor_description/catkin_generated/installspace/hector_quadrotor_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/app/drone_ws/build/hector_quadrotor_description/catkin_generated/installspace/hector_quadrotor_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description/cmake" TYPE FILE FILES
-    "/home/nidhood/drone_ws/build/hector_quadrotor_description/catkin_generated/installspace/hector_quadrotor_descriptionConfig.cmake"
-    "/home/nidhood/drone_ws/build/hector_quadrotor_description/catkin_generated/installspace/hector_quadrotor_descriptionConfig-version.cmake"
+    "/app/drone_ws/build/hector_quadrotor_description/catkin_generated/installspace/hector_quadrotor_descriptionConfig.cmake"
+    "/app/drone_ws/build/hector_quadrotor_description/catkin_generated/installspace/hector_quadrotor_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description" TYPE FILE FILES "/home/nidhood/drone_ws/src/hector_quadrotor_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description" TYPE FILE FILES "/app/drone_ws/src/hector_quadrotor_description/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/hector_quadrotor_description/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description" TYPE DIRECTORY FILES "/app/drone_ws/src/hector_quadrotor_description/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/hector_quadrotor_description/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description" TYPE DIRECTORY FILES "/app/drone_ws/src/hector_quadrotor_description/meshes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/hector_quadrotor_description/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_description" TYPE DIRECTORY FILES "/app/drone_ws/src/hector_quadrotor_description/urdf")
 endif()
 

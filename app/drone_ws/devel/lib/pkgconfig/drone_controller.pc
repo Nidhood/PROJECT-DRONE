@@ -1,8 +1,8 @@
-prefix=/home/nidhood/drone_ws/devel
+prefix=/app/drone_ws/devel
 
 Name: drone_controller
 Description: Description of drone_controller
 Version: 0.0.0
-Cflags: -I/home/nidhood/drone_ws/devel/include -I/home/nidhood/drone_ws/src/drone_controller/include
+Cflags: -I/app/drone_ws/devel/include -I/app/drone_ws/src/drone_controller/include
 Libs: -L${prefix}/lib -ldrone_controller
 Requires: gazebo_msgs gazebo_ros geometry_msgs nav_msgs roscpp rospy sensor_msgs std_msgs std_srvs tf tf2_ros

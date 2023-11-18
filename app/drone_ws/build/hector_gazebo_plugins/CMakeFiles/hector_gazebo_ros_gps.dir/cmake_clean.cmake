@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/lib/libhector_gazebo_ros_gps.pdb"
-  "/home/nidhood/drone_ws/devel/lib/libhector_gazebo_ros_gps.so"
+  "/app/drone_ws/devel/lib/libhector_gazebo_ros_gps.pdb"
+  "/app/drone_ws/devel/lib/libhector_gazebo_ros_gps.so"
   "CMakeFiles/hector_gazebo_ros_gps.dir/src/gazebo_ros_gps.cpp.o"
 )
 

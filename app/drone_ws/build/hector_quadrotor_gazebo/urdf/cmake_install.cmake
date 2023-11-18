@@ -1,8 +1,8 @@
-# Install script for directory: /home/nidhood/drone_ws/src/hector_quadrotor_gazebo/urdf
+# Install script for directory: /app/drone_ws/src/hector_quadrotor_gazebo/urdf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nidhood/drone_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/app/drone_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,8 +1,8 @@
-prefix=/home/nidhood/drone_ws/devel
+prefix=/app/drone_ws/devel
 
 Name: hector_quadrotor_controller_gazebo
 Description: Description of hector_quadrotor_controller_gazebo
 Version: 0.3.5
-Cflags: -I/home/nidhood/drone_ws/src/hector_quadrotor_controller_gazebo/include
+Cflags: -I/app/drone_ws/src/hector_quadrotor_controller_gazebo/include
 Libs: -L${prefix}/lib -lhector_quadrotor_controller_gazebo
 Requires: gazebo_ros_control hector_quadrotor_controller drone_controller

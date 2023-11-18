@@ -1,8 +1,8 @@
-# Install script for directory: /home/nidhood/drone_ws/src/hector_quadrotor_controller_gazebo
+# Install script for directory: /app/drone_ws/src/hector_quadrotor_controller_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nidhood/drone_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/app/drone_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nidhood/drone_ws/build/hector_quadrotor_controller_gazebo/catkin_generated/installspace/hector_quadrotor_controller_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/app/drone_ws/build/hector_quadrotor_controller_gazebo/catkin_generated/installspace/hector_quadrotor_controller_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_controller_gazebo/cmake" TYPE FILE FILES
-    "/home/nidhood/drone_ws/build/hector_quadrotor_controller_gazebo/catkin_generated/installspace/hector_quadrotor_controller_gazeboConfig.cmake"
-    "/home/nidhood/drone_ws/build/hector_quadrotor_controller_gazebo/catkin_generated/installspace/hector_quadrotor_controller_gazeboConfig-version.cmake"
+    "/app/drone_ws/build/hector_quadrotor_controller_gazebo/catkin_generated/installspace/hector_quadrotor_controller_gazeboConfig.cmake"
+    "/app/drone_ws/build/hector_quadrotor_controller_gazebo/catkin_generated/installspace/hector_quadrotor_controller_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_controller_gazebo" TYPE FILE FILES "/home/nidhood/drone_ws/src/hector_quadrotor_controller_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_controller_gazebo" TYPE FILE FILES "/app/drone_ws/src/hector_quadrotor_controller_gazebo/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,12 +59,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_quadrotor_controller_gazebo.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nidhood/drone_ws/devel/lib/libhector_quadrotor_controller_gazebo.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/app/drone_ws/devel/lib/libhector_quadrotor_controller_gazebo.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_quadrotor_controller_gazebo.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_quadrotor_controller_gazebo.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_quadrotor_controller_gazebo.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/noetic/lib:/home/nidhood/drone_ws/devel/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/noetic/lib:/app/drone_ws/devel/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_quadrotor_controller_gazebo.so")
@@ -76,10 +76,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hector_quadrotor_controller_gazebo" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/hector_quadrotor_controller_gazebo/include/hector_quadrotor_controller_gazebo/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hector_quadrotor_controller_gazebo" TYPE DIRECTORY FILES "/app/drone_ws/src/hector_quadrotor_controller_gazebo/include/hector_quadrotor_controller_gazebo/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_controller_gazebo" TYPE FILE FILES "/home/nidhood/drone_ws/src/hector_quadrotor_controller_gazebo/quadrotor_controller_gazebo.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_quadrotor_controller_gazebo" TYPE FILE FILES "/app/drone_ws/src/hector_quadrotor_controller_gazebo/quadrotor_controller_gazebo.xml")
 endif()
 

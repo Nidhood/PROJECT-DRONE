@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l"
-  "/home/nidhood/drone_ws/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l"
+  "/app/drone_ws/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l"
+  "/app/drone_ws/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l"
   "CMakeFiles/hector_gazebo_plugins_generate_messages_eus"
 )
 

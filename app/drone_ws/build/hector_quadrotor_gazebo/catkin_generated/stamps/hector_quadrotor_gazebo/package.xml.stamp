@@ -33,8 +33,6 @@
   <run_depend>hector_quadrotor_model</run_depend>
   <run_depend>hector_quadrotor_gazebo_plugins</run_depend>
   <run_depend>hector_quadrotor_controller_gazebo</run_depend>
-  <run_depend>hector_quadrotor_pose_estimation</run_depend>
-  <run_depend>hector_quadrotor_teleop</run_depend>
   <run_depend>hector_uav_msgs</run_depend>
   <run_depend>message_to_tf</run_depend>
   <run_depend>robot_state_publisher</run_depend>

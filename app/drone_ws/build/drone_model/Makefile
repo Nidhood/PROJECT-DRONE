@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nidhood/drone_ws/src
+CMAKE_SOURCE_DIR = /app/drone_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nidhood/drone_ws/build
+CMAKE_BINARY_DIR = /app/drone_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nidhood/drone_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nidhood/drone_ws/build/CMakeFiles /home/nidhood/drone_ws/build/drone_model/CMakeFiles/progress.marks
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nidhood/drone_ws/build/CMakeFiles 0
+	cd /app/drone_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /app/drone_ws/build/CMakeFiles /app/drone_ws/build/drone_model/CMakeFiles/progress.marks
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /app/drone_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/clean
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/preinstall
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/preinstall
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nidhood/drone_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /app/drone_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 drone_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 .PHONY : drone_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ visualization_msgs_generate_messages_py: drone_model/CMakeFiles/visualization_ms
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ visualization_msgs_generate_messages_nodejs: drone_model/CMakeFiles/visualizatio
 
 # fast build rule for target.
 visualization_msgs_generate_messages_nodejs/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
 .PHONY : visualization_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 .PHONY : drone_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ visualization_msgs_generate_messages_lisp: drone_model/CMakeFiles/visualization_
 
 # fast build rule for target.
 visualization_msgs_generate_messages_lisp/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
 .PHONY : visualization_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 .PHONY : drone_model/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ nodelet_generate_messages_lisp: drone_model/CMakeFiles/nodelet_generate_messages
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 .PHONY : drone_model/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ nodelet_generate_messages_cpp: drone_model/CMakeFiles/nodelet_generate_messages_
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 .PHONY : drone_model/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ nodelet_generate_messages_nodejs: drone_model/CMakeFiles/nodelet_generate_messag
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 .PHONY : drone_model/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ nodelet_generate_messages_eus: drone_model/CMakeFiles/nodelet_generate_messages_
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_eus.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_eus.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_eus.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_eus.dir/build
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 .PHONY : drone_model/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ bond_generate_messages_nodejs: drone_model/CMakeFiles/bond_generate_messages_nod
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_nodejs.dir/build.make drone_model/CMakeFiles/bond_generate_messages_nodejs.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_nodejs.dir/build.make drone_model/CMakeFiles/bond_generate_messages_nodejs.dir/build
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_py.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_py.dir/rule
 .PHONY : drone_model/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ bond_generate_messages_py: drone_model/CMakeFiles/bond_generate_messages_py.dir/
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_py.dir/build.make drone_model/CMakeFiles/bond_generate_messages_py.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_py.dir/build.make drone_model/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 .PHONY : drone_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ visualization_msgs_generate_messages_cpp: drone_model/CMakeFiles/visualization_m
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/rule
 .PHONY : drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ gazebo_plugins_gencfg: drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/rule
 
 # fast build rule for target.
 gazebo_plugins_gencfg/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/build.make drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/build.make drone_model/CMakeFiles/gazebo_plugins_gencfg.dir/build
 .PHONY : gazebo_plugins_gencfg/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_eus.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_eus.dir/rule
 .PHONY : drone_model/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ bond_generate_messages_eus: drone_model/CMakeFiles/bond_generate_messages_eus.di
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_eus.dir/build.make drone_model/CMakeFiles/bond_generate_messages_eus.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_eus.dir/build.make drone_model/CMakeFiles/bond_generate_messages_eus.dir/build
 .PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_cpp.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_cpp.dir/rule
 .PHONY : drone_model/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ bond_generate_messages_cpp: drone_model/CMakeFiles/bond_generate_messages_cpp.di
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_cpp.dir/build.make drone_model/CMakeFiles/bond_generate_messages_cpp.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_cpp.dir/build.make drone_model/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_py.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/nodelet_generate_messages_py.dir/rule
 .PHONY : drone_model/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ nodelet_generate_messages_py: drone_model/CMakeFiles/nodelet_generate_messages_p
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_py.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_py.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/nodelet_generate_messages_py.dir/build.make drone_model/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_lisp.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/bond_generate_messages_lisp.dir/rule
 .PHONY : drone_model/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ bond_generate_messages_lisp: drone_model/CMakeFiles/bond_generate_messages_lisp.
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_lisp.dir/build.make drone_model/CMakeFiles/bond_generate_messages_lisp.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/bond_generate_messages_lisp.dir/build.make drone_model/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+	cd /app/drone_ws/build && $(MAKE) -f CMakeFiles/Makefile2 drone_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 .PHONY : drone_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -404,7 +404,7 @@ visualization_msgs_generate_messages_eus: drone_model/CMakeFiles/visualization_m
 
 # fast build rule for target.
 visualization_msgs_generate_messages_eus/fast:
-	cd /home/nidhood/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+	cd /app/drone_ws/build && $(MAKE) -f drone_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make drone_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
 .PHONY : visualization_msgs_generate_messages_eus/fast
 
 # Help Target
@@ -447,6 +447,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nidhood/drone_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /app/drone_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

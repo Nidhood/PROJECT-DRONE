@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/lib/python3/dist-packages/hector_gazebo_plugins/srv/_SetBias.py"
-  "/home/nidhood/drone_ws/devel/lib/python3/dist-packages/hector_gazebo_plugins/srv/__init__.py"
+  "/app/drone_ws/devel/lib/python3/dist-packages/hector_gazebo_plugins/srv/_SetBias.py"
+  "/app/drone_ws/devel/lib/python3/dist-packages/hector_gazebo_plugins/srv/__init__.py"
   "CMakeFiles/hector_gazebo_plugins_generate_messages_py"
 )
 

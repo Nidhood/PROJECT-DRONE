@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nidhood/drone_ws/src
+CMAKE_SOURCE_DIR = /app/drone_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nidhood/drone_ws/build
+CMAKE_BINARY_DIR = /app/drone_ws/build
 
 # Utility rule file for actionlib_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ hector_quadrotor_controller/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/
 .PHONY : hector_quadrotor_controller/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 
 hector_quadrotor_controller/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean:
-	cd /home/nidhood/drone_ws/build/hector_quadrotor_controller && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /app/drone_ws/build/hector_quadrotor_controller && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : hector_quadrotor_controller/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 
 hector_quadrotor_controller/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend:
-	cd /home/nidhood/drone_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nidhood/drone_ws/src /home/nidhood/drone_ws/src/hector_quadrotor_controller /home/nidhood/drone_ws/build /home/nidhood/drone_ws/build/hector_quadrotor_controller /home/nidhood/drone_ws/build/hector_quadrotor_controller/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /app/drone_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /app/drone_ws/src /app/drone_ws/src/hector_quadrotor_controller /app/drone_ws/build /app/drone_ws/build/hector_quadrotor_controller /app/drone_ws/build/hector_quadrotor_controller/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_quadrotor_controller/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 

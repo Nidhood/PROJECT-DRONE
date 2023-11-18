@@ -17,21 +17,14 @@ WORKDIR $DRONE_WS
 
 RUN echo "source /opt/ros/noetic/setup.bash" >> /root/.bashrc
 
-# Check if the moveit_tutorials repository is already cloned
-RUN cd $DRONE_WS/src && \
-if [ ! -d "moveit_tutorials" ]; then \
-    git clone https://github.com/ros-planning/moveit_tutorials.git -b master; \
-fi
-
-# Check if the panda_moveit_config repository is already cloned
-RUN cd $DRONE_WS/src && \
-if [ ! -d "panda_moveit_config" ]; then \
-    git clone https://github.com/ros-planning/panda_moveit_config.git -b noetic-devel; \
-fi
-
 # Initialize local catkin workspace
 RUN source /opt/ros/noetic/setup.bash \
 # Update apt-get because its cache is always cleared after installs to keep image size down
 && apt-get update \
+
 # Install dependencies
+&& apt-get install ros-noetic-teleop-twist-keyboard \
 && cd $DRONE_WS && catkin_make && rosdep install -y --from-paths . --ignore-src --rosdistro noetic
+
+RUN echo "source devel/setup.bash" >> ~/.bashrc \
+source ~/.bashrc

@@ -1,4 +1,4 @@
-prefix=/home/nidhood/drone_ws/devel
+prefix=/app/drone_ws/devel
 
 Name: hector_quadrotor_description
 Description: Description of hector_quadrotor_description

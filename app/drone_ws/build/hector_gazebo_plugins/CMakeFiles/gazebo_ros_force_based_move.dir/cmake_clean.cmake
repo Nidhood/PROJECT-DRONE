@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/lib/libgazebo_ros_force_based_move.pdb"
-  "/home/nidhood/drone_ws/devel/lib/libgazebo_ros_force_based_move.so"
+  "/app/drone_ws/devel/lib/libgazebo_ros_force_based_move.pdb"
+  "/app/drone_ws/devel/lib/libgazebo_ros_force_based_move.so"
   "CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.o"
 )
 

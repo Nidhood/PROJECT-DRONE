@@ -1,8 +1,8 @@
-# Install script for directory: /home/nidhood/drone_ws/src/drone_model
+# Install script for directory: /app/drone_ws/src/drone_model
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nidhood/drone_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/app/drone_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nidhood/drone_ws/build/drone_model/catkin_generated/installspace/drone_model.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/app/drone_ws/build/drone_model/catkin_generated/installspace/drone_model.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/cmake" TYPE FILE FILES
-    "/home/nidhood/drone_ws/build/drone_model/catkin_generated/installspace/drone_modelConfig.cmake"
-    "/home/nidhood/drone_ws/build/drone_model/catkin_generated/installspace/drone_modelConfig-version.cmake"
+    "/app/drone_ws/build/drone_model/catkin_generated/installspace/drone_modelConfig.cmake"
+    "/app/drone_ws/build/drone_model/catkin_generated/installspace/drone_modelConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model" TYPE FILE FILES "/home/nidhood/drone_ws/src/drone_model/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model" TYPE FILE FILES "/app/drone_ws/src/drone_model/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/config" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/drone_model/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/config" TYPE DIRECTORY FILES "/app/drone_ws/src/drone_model/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/launch" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/drone_model/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/launch" TYPE DIRECTORY FILES "/app/drone_ws/src/drone_model/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/meshes" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/drone_model/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/meshes" TYPE DIRECTORY FILES "/app/drone_ws/src/drone_model/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/urdf" TYPE DIRECTORY FILES "/home/nidhood/drone_ws/src/drone_model/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_model/urdf" TYPE DIRECTORY FILES "/app/drone_ws/src/drone_model/urdf/")
 endif()
 

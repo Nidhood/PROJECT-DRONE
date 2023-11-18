@@ -67,14 +67,14 @@ set(hector_uav_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hector_uav_msgs_SOURCE_PREFIX /home/nidhood/drone_ws/src/hector_uav_msgs)
-  set(hector_uav_msgs_DEVEL_PREFIX /home/nidhood/drone_ws/devel)
+  set(hector_uav_msgs_SOURCE_PREFIX /app/drone_ws/src/hector_uav_msgs)
+  set(hector_uav_msgs_DEVEL_PREFIX /app/drone_ws/devel)
   set(hector_uav_msgs_INSTALL_PREFIX "")
   set(hector_uav_msgs_PREFIX ${hector_uav_msgs_DEVEL_PREFIX})
 else()
   set(hector_uav_msgs_SOURCE_PREFIX "")
   set(hector_uav_msgs_DEVEL_PREFIX "")
-  set(hector_uav_msgs_INSTALL_PREFIX /home/nidhood/drone_ws/install)
+  set(hector_uav_msgs_INSTALL_PREFIX /app/drone_ws/install)
   set(hector_uav_msgs_PREFIX ${hector_uav_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nidhood/drone_ws/install/lib;/home/nidhood/drone_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /app/drone_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

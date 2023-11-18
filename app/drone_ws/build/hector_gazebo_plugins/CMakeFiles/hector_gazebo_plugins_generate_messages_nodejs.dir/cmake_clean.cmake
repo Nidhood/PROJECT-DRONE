@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/share/gennodejs/ros/hector_gazebo_plugins/srv/SetBias.js"
+  "/app/drone_ws/devel/share/gennodejs/ros/hector_gazebo_plugins/srv/SetBias.js"
   "CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs"
 )
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"drone_controller\" -Dlink_controller_node_EXPORTS
 
-CXX_INCLUDES = -I/home/nidhood/drone_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/nidhood/drone_ws/src/drone_controller/include 
+CXX_INCLUDES = -I/app/drone_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/app/drone_ws/src/drone_controller/include 
 

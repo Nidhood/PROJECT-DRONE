@@ -17,9 +17,9 @@ add_custom_target(hector_gazebo_plugins_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
+get_filename_component(_filename "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
 add_custom_target(_hector_gazebo_plugins_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_gazebo_plugins" "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" "geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_gazebo_plugins" "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" "geometry_msgs/Vector3"
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_hector_gazebo_plugins_generate_messages_check_deps_${_filenam
 
 ### Generating Services
 _generate_srv_cpp(hector_gazebo_plugins
-  "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
+  "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_gazebo_plugins
@@ -49,7 +49,7 @@ add_custom_target(hector_gazebo_plugins_generate_messages_cpp
 add_dependencies(hector_gazebo_plugins_generate_messages hector_gazebo_plugins_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
+get_filename_component(_filename "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
 add_dependencies(hector_gazebo_plugins_generate_messages_cpp _hector_gazebo_plugins_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hector_gazebo_plugins_generate_mess
 
 ### Generating Services
 _generate_srv_eus(hector_gazebo_plugins
-  "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
+  "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_gazebo_plugins
@@ -82,7 +82,7 @@ add_custom_target(hector_gazebo_plugins_generate_messages_eus
 add_dependencies(hector_gazebo_plugins_generate_messages hector_gazebo_plugins_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
+get_filename_component(_filename "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
 add_dependencies(hector_gazebo_plugins_generate_messages_eus _hector_gazebo_plugins_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hector_gazebo_plugins_generate_mess
 
 ### Generating Services
 _generate_srv_lisp(hector_gazebo_plugins
-  "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
+  "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_gazebo_plugins
@@ -115,7 +115,7 @@ add_custom_target(hector_gazebo_plugins_generate_messages_lisp
 add_dependencies(hector_gazebo_plugins_generate_messages hector_gazebo_plugins_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
+get_filename_component(_filename "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
 add_dependencies(hector_gazebo_plugins_generate_messages_lisp _hector_gazebo_plugins_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hector_gazebo_plugins_generate_mess
 
 ### Generating Services
 _generate_srv_nodejs(hector_gazebo_plugins
-  "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
+  "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_gazebo_plugins
@@ -148,7 +148,7 @@ add_custom_target(hector_gazebo_plugins_generate_messages_nodejs
 add_dependencies(hector_gazebo_plugins_generate_messages hector_gazebo_plugins_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
+get_filename_component(_filename "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
 add_dependencies(hector_gazebo_plugins_generate_messages_nodejs _hector_gazebo_plugins_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hector_gazebo_plugins_generate_mess
 
 ### Generating Services
 _generate_srv_py(hector_gazebo_plugins
-  "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
+  "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_gazebo_plugins
@@ -181,7 +181,7 @@ add_custom_target(hector_gazebo_plugins_generate_messages_py
 add_dependencies(hector_gazebo_plugins_generate_messages hector_gazebo_plugins_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/nidhood/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
+get_filename_component(_filename "/app/drone_ws/src/hector_gazebo_plugins/srv/SetBias.srv" NAME_WE)
 add_dependencies(hector_gazebo_plugins_generate_messages_py _hector_gazebo_plugins_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

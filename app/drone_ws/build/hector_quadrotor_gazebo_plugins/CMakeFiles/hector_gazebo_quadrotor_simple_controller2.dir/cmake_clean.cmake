@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/lib/libhector_gazebo_quadrotor_simple_controller2.pdb"
-  "/home/nidhood/drone_ws/devel/lib/libhector_gazebo_quadrotor_simple_controller2.so"
+  "/app/drone_ws/devel/lib/libhector_gazebo_quadrotor_simple_controller2.pdb"
+  "/app/drone_ws/devel/lib/libhector_gazebo_quadrotor_simple_controller2.so"
   "CMakeFiles/hector_gazebo_quadrotor_simple_controller2.dir/src/gazebo_quadrotor_simple_controller.cpp.o"
 )
 

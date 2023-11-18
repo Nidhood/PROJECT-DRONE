@@ -1,4 +1,4 @@
-prefix=/home/nidhood/drone_ws/install
+prefix=/app/drone_ws/install
 
 Name: message_to_tf
 Description: Description of message_to_tf

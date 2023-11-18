@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nidhood/drone_ws/src
+CMAKE_SOURCE_DIR = /app/drone_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nidhood/drone_ws/build
+CMAKE_BINARY_DIR = /app/drone_ws/build
 
 # Utility rule file for hector_gazebo_plugins_geneus.
 
@@ -63,10 +63,10 @@ hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/build: hector_
 .PHONY : hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/build
 
 hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/clean:
-	cd /home/nidhood/drone_ws/build/hector_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/hector_gazebo_plugins_geneus.dir/cmake_clean.cmake
+	cd /app/drone_ws/build/hector_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/hector_gazebo_plugins_geneus.dir/cmake_clean.cmake
 .PHONY : hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/clean
 
 hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/depend:
-	cd /home/nidhood/drone_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nidhood/drone_ws/src /home/nidhood/drone_ws/src/hector_gazebo_plugins /home/nidhood/drone_ws/build /home/nidhood/drone_ws/build/hector_gazebo_plugins /home/nidhood/drone_ws/build/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /app/drone_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /app/drone_ws/src /app/drone_ws/src/hector_gazebo_plugins /app/drone_ws/build /app/drone_ws/build/hector_gazebo_plugins /app/drone_ws/build/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/depend
 

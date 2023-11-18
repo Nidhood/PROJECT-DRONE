@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/share/roseus/ros/drone_controller/manifest.l"
-  "/home/nidhood/drone_ws/devel/share/roseus/ros/drone_controller/msg/prop_angular_velocity_array_msg.l"
-  "/home/nidhood/drone_ws/devel/share/roseus/ros/drone_controller/msg/prop_angular_velocity_msg.l"
+  "/app/drone_ws/devel/share/roseus/ros/drone_controller/manifest.l"
+  "/app/drone_ws/devel/share/roseus/ros/drone_controller/msg/prop_angular_velocity_array_msg.l"
+  "/app/drone_ws/devel/share/roseus/ros/drone_controller/msg/prop_angular_velocity_msg.l"
   "CMakeFiles/drone_controller_generate_messages_eus"
 )
 

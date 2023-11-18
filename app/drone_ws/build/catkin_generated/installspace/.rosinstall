@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/nidhood/drone_ws/install/setup.sh
+    local-name: /app/drone_ws/install/setup.sh

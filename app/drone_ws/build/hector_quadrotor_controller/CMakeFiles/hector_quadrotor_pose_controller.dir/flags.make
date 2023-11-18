@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"hector_quadrotor_controller\" -Dhector_quadrotor_pose_controller_EXPORTS
 
-CXX_INCLUDES = -I/home/nidhood/drone_ws/src/hector_quadrotor_controller/include -I/home/nidhood/drone_ws/devel/include -I/home/nidhood/drone_ws/src/hector_uav_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/app/drone_ws/src/hector_quadrotor_controller/include -I/app/drone_ws/devel/include -I/app/drone_ws/src/hector_uav_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

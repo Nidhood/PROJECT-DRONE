@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/nidhood/drone_ws/devel/include/hector_gazebo_plugins/SetBias.h"
+  "/app/drone_ws/devel/include/hector_gazebo_plugins/SetBias.h"
   "CMakeFiles/hector_gazebo_plugins_generate_messages_cpp"
 )
 
