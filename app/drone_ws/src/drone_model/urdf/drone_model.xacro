@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="drone_model">
+
+
+  <!-- Base Link -->
+  <xacro:property name="base_link_mass" value="0.575473884994464"/>
+  <xacro:property name="base_link_ixx" value="0.00069924928975311"/>
+  <xacro:property name="base_link_ixy" value="6.64874579562384E-08"/>
+  <xacro:property name="base_link_ixz" value="-1.23079400039438E-07"/>
+  <xacro:property name="base_link_iyy" value="0.000969050918347551"/>
+  <xacro:property name="base_link_iyz" value="1.18579410704994E-07"/>
+  <xacro:property name="base_link_izz" value="0.00161082001380927"/>
+
+  <link name="base_link">
+
+    <inertial>
+      <origin xyz="-0.00301668935937149 -1.74355309715546E-05 0.00676026779386868" rpy="0 0 0" />
+      <mass value="${base_link_mass}" />
+      <inertia ixx="${base_link_ixx}" ixy="${base_link_ixy}" ixz="${base_link_ixz}"
+               iyy="${base_link_iyy}" iyz="${base_link_iyz}" izz="${base_link_izz}" />
+    </inertial>
+
+    <collision name="drone__base_link__collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/collisions/base_link.stl" />
+      </geometry>
+    </collision>
+
+    <visual name="drone__base_link__visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/visuals/base_link.dae" />
+      </geometry>
+      <material name="drone_material">
+        <color rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+  
+  </link>
+
+  <!-- Propeller 1 -->
+  <xacro:property name="prop1_mass" value="0.010198"/>
+  <xacro:property name="prop1_ixx" value="2.3325E-05"/>
+  <xacro:property name="prop1_ixy" value="-1.5484E-05"/>
+  <xacro:property name="prop1_ixz" value="-5.7308E-11"/>
+  <xacro:property name="prop1_iyy" value="1.0681E-05"/>
+  <xacro:property name="prop1_iyz" value="-8.6255E-11"/>
+  <xacro:property name="prop1_izz" value="3.3922E-05"/>
+
+  <link name="prop1_link">
+
+    <inertial>
+      <origin xyz="8.1826E-05 2.9373E-05 -0.00052954" rpy="0 0 0" />
+      <mass value="${prop1_mass}" />
+      <inertia ixx="${prop1_ixx}" ixy="${prop1_ixy}" ixz="${prop1_ixz}"
+               iyy="${prop1_iyy}" iyz="${prop1_iyz}" izz="${prop1_izz}" />
+    </inertial>
+
+     <collision name="drone__prop1_link__collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/collisions/prop1_link.stl" />
+      </geometry>
+    </collision>
+
+    <visual name="drone__prop1_link__visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/visuals/prop1_link.dae" />
+      </geometry>
+      <material name="drone_material">
+        <color rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+
+  </link>
+
+  <joint name="prop1" type="continuous">
+    <origin xyz="-0.16155 0.15844 0.065147" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="prop1_link" />
+    <axis xyz="0 0 1" />
+    <limit effort="100" velocity="100" />
+  </joint>
+
+  <!-- Propeller 2 -->
+  <xacro:property name="prop2_mass" value="0.010199"/>
+  <xacro:property name="prop2_ixx" value="3.1441E-06"/>
+  <xacro:property name="prop2_ixy" value="-9.3627E-06"/>
+  <xacro:property name="prop2_ixz" value="9.6429E-11"/>
+  <xacro:property name="prop2_iyy" value="3.0862E-05"/>
+  <xacro:property name="prop2_iyz" value="3.0225E-11"/>
+  <xacro:property name="prop2_izz" value="3.3922E-05"/>
+
+  <link name="prop2_link">
+  
+    <inertial>
+      <origin xyz="3.5088E-05 -7.1118E-05 0.00052961" rpy="0 0 0" />
+      <mass value="${prop2_mass}" />
+      <inertia ixx="${prop2_ixx}" ixy="${prop2_ixy}" ixz="${prop2_ixz}"
+               iyy="${prop2_iyy}" iyz="${prop2_iyz}" izz="${prop2_izz}" />
+    </inertial>
+
+    <collision name="drone__prop2_link__collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/collisions/prop2_link.stl" />
+      </geometry>
+    </collision>
+    
+    <visual name="drone__prop2_link__visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/visuals/prop2_link.dae" />
+      </geometry>
+      <material name="drone_material">
+        <color rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+
+  </link>
+
+  <joint name="prop2" type="continuous">
+    <origin xyz="0.15631 0.15852 0.065147" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="prop2_link" />
+    <axis xyz="0 0 1" />
+    <limit effort="100" velocity="100" />
+  </joint>
+
+  <!-- Propeller 3 -->
+  <xacro:property name="prop3_mass" value="0.010198"/>
+  <xacro:property name="prop3_ixx" value="2.3695E-05"/>
+  <xacro:property name="prop3_ixy" value="-1.5328E-05"/>
+  <xacro:property name="prop3_ixz" value="-6.068E-11"/>
+  <xacro:property name="prop3_iyy" value="1.0311E-05"/>
+  <xacro:property name="prop3_iyz" value="-9.9602E-11"/>
+  <xacro:property name="prop3_izz" value="3.3922E-05"/>
+
+  <link name="prop3_link">
+
+    <inertial>
+      <origin xyz="-6.791E-05 2.1571E-05 -0.00052957" rpy="0 0 0" />
+      <mass value="${prop3_mass}" />
+      <inertia ixx="${prop3_ixx}" ixy="${prop3_ixy}" ixz="${prop3_ixz}"
+               iyy="${prop3_iyy}" iyz="${prop3_iyz}" izz="${prop3_izz}" />
+    </inertial>
+
+    <collision name="drone__prop3_link__collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/collisions/prop3_link.stl" />
+      </geometry>
+    </collision>
+
+    <visual name="drone__prop3_link__visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/visuals/prop3_link.dae" />
+      </geometry>
+      <material name="drone_material">
+        <color rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+
+  </link>
+
+  <joint name="prop3" type="continuous">
+    <origin xyz="0.1564 -0.15938 0.065147" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="prop3_link" />
+    <axis xyz="0 0 1" />
+    <limit effort="100" velocity="100" />
+  </joint>
+
+  <!-- Propeller 4 -->
+  <xacro:property name="prop4_mass" value="0.010199"/>
+  <xacro:property name="prop4_ixx" value="3.1704E-06"/>
+  <xacro:property name="prop4_ixy" value="-9.4015E-06"/>
+  <xacro:property name="prop4_ixz" value="9.4615E-11"/>
+  <xacro:property name="prop4_iyy" value="3.0835E-05"/>
+  <xacro:property name="prop4_iyz" value="2.9414E-11"/>
+  <xacro:property name="prop4_izz" value="3.3922E-05"/>
+
+  <link name="prop4_link">
+
+    <inertial>
+      <origin xyz="0.00026769 3.3964E-05 0.00052961" rpy="0 0 0" />
+      <mass value="${prop4_mass}" />
+      <inertia ixx="${prop4_ixx}" ixy="${prop4_ixy}" ixz="${prop4_ixz}"
+               iyy="${prop4_iyy}" iyz="${prop4_iyz}" izz="${prop4_izz}" />
+    </inertial>
+    
+    <collision name="drone__prop4_link__collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/collisions/prop4_link.stl" />
+      </geometry>
+    </collision>
+
+    <visual name="drone__prop4_link__visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://drone_model/meshes/visuals/prop4_link.dae" />
+      </geometry>
+      <material name="drone_material">
+        <color rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+
+  </link>
+
+  <joint name="prop4" type="continuous">
+    <origin xyz="-0.16174 -0.15938 0.065147" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="prop4_link" />
+    <axis xyz="0 0 1" />
+    <limit effort="100" velocity="100" />
+  </joint>
+  
+</robot>

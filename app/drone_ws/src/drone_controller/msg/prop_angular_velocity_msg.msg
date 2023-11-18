@@ -1,0 +1,2 @@
+string prop_name
+float64 angular_velocity

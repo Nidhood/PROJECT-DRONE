@@ -1,0 +1,2 @@
+drone_controller:drone_model:hector_gazebo_plugins:hector_quadrotor_controller:hector_quadrotor_controller_gazebo:hector_quadrotor_description:hector_quadrotor_gazebo:hector_quadrotor_gazebo_plugins:hector_quadrotor_model:hector_uav_msgs:message_to_tf
+-DCATKIN_DEVEL_PREFIX=/home/nidhood/drone_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nidhood/drone_ws/install -G Unix Makefiles

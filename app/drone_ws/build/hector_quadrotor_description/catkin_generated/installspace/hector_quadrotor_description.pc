@@ -1,0 +1,8 @@
+prefix=/home/nidhood/drone_ws/install
+
+Name: hector_quadrotor_description
+Description: Description of hector_quadrotor_description
+Version: 0.3.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

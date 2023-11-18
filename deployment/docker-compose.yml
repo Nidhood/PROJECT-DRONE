@@ -1,0 +1,15 @@
+services:
+  ros:
+    build: 
+        context: ../
+        dockerfile: build/ros_image.Dockerfile
+    restart: on-failure
+    command: ["sleep","infinity"]
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - "${PWD}/app:/app"
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /dev/dri:/dev/dri
+    network_mode: host 

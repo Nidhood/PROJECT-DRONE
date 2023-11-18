@@ -1,0 +1,8 @@
+prefix=/home/nidhood/drone_ws/install
+
+Name: drone_model
+Description: Description of drone_model
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

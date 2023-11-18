@@ -1,0 +1,2 @@
+set(hector_quadrotor_controller_gazebo_MESSAGE_FILES "msg/prop_angular_velocity_msg.msg;msg/prop_angular_velocity_array_msg.msg")
+set(hector_quadrotor_controller_gazebo_SERVICE_FILES "")
