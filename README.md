@@ -57,9 +57,27 @@ Our project revolves around a meticulously crafted drone simulation, leveraging 
 
 [View test video](https://github.com/Nidhood/PROJECT-DRONE/blob/main/tests_videos/drone_test_%23003.mp4)
 
-
 ## Join the Adventure
 
 We invite you to join us on this thrilling adventure as we explore the endless possibilities of ROS Noetic and Gazebo 11. Whether you're a seasoned roboticist or a curious explorer, our project promises excitement, innovation, and the sheer joy of bringing dreams to life.
 
 Are you ready to redefine what's possible? Let's take flight together! 🚀🎉
+
+# Technologies Used
+
+Our journey into the realm of robotics has been powered by a set of cutting-edge technologies that have brought our project to life. Here are some key tools that have fueled our exploration:
+
+- **ROS Noetic 🤖:**
+  The Robotic Operating System (ROS) Noetic has been the heartbeat of our platform, facilitating efficient communication and control of robots.
+
+- **Gazebo 11 🌐:**
+  Gazebo, in its version 11, has provided the perfect playground for simulating and visualizing our drones in realistic virtual environments.
+
+- **Python 3 🐍:**
+  We have harnessed the versatility of Python 3 for the implementation of control logic and scripts, making development and experimentation straightforward.
+
+- **C++11 🖥️:**
+  For optimization and execution of critical components, we've employed C++11, leveraging its modern and efficient features.
+
+- **Docker 🐳:**
+  Virtualization through Docker has simplified the management of the development environment, ensuring project portability and reproducibility.
