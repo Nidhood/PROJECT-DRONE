@@ -75,6 +75,12 @@ Our journey into the realm of robotics has been powered by a set of cutting-edge
 
 - **Python 3 🐍:**
   We have harnessed the versatility of Python 3 for the implementation of control logic and scripts, making development and experimentation straightforward.
+
+- **C++11 🖥️:**
+  For optimization and execution of critical components, we've employed C++11, leveraging its modern and efficient features.
+
+- **Docker 🐳:**
+  Virtualization through Docker has simplified the management of the development environment, ensuring project portability and reproducibility.
   
 ## Inspirational Codebases
 
@@ -91,9 +97,3 @@ Our project stands on the shoulders of giants, drawing inspiration from and buil
 
 4. **[teleop_twist_keyboard](https://github.com/ros-teleop/teleop_twist_keyboard):**
    The teleop_twist_keyboard package has been instrumental in enabling intuitive control of robots using keyboard input, forming the basis for our control mechanisms.
-
-- **C++11 🖥️:**
-  For optimization and execution of critical components, we've employed C++11, leveraging its modern and efficient features.
-
-- **Docker 🐳:**
-  Virtualization through Docker has simplified the management of the development environment, ensuring project portability and reproducibility.
