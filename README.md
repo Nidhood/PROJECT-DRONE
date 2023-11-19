@@ -63,7 +63,7 @@ We invite you to join us on this thrilling adventure as we explore the endless p
 
 Are you ready to redefine what's possible? Let's take flight together! 🚀🎉
 
-# Technologies Used
+## Technologies Used
 
 Our journey into the realm of robotics has been powered by a set of cutting-edge technologies that have brought our project to life. Here are some key tools that have fueled our exploration:
 
@@ -75,6 +75,22 @@ Our journey into the realm of robotics has been powered by a set of cutting-edge
 
 - **Python 3 🐍:**
   We have harnessed the versatility of Python 3 for the implementation of control logic and scripts, making development and experimentation straightforward.
+  
+## Inspirational Codebases
+
+Our project stands on the shoulders of giants, drawing inspiration from and building upon some remarkable codebases. Here are a few key repositories that have influenced our journey:
+
+1. **[ROS Tutorials](https://github.com/ros/ros_tutorials):**
+   The ROS Tutorials have been an invaluable resource, providing clear examples and best practices for working with the Robotic Operating System.
+
+2. **[Gazebo Models](https://github.com/osrf/gazebo_models):**
+   The Gazebo Models repository has served as a treasure trove of pre-built models, accelerating our development by providing a diverse set of simulated objects.
+
+3. **[hector_quadrotor](https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor):**
+   The hector_quadrotor repository, maintained by TU Darmstadt, has been a guiding light for drone simulation in Gazebo, influencing our approach to realistic aerial dynamics.
+
+4. **[teleop_twist_keyboard](https://github.com/ros-teleop/teleop_twist_keyboard):**
+   The teleop_twist_keyboard package has been instrumental in enabling intuitive control of robots using keyboard input, forming the basis for our control mechanisms.
 
 - **C++11 🖥️:**
   For optimization and execution of critical components, we've employed C++11, leveraging its modern and efficient features.
