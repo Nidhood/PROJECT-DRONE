@@ -1,4 +1,4 @@
-# DRONE-PROJECT: 🚀✨ Transforming Dreams into Reality with ROS and Gazebo 🚀✨
+# DRONE-PROJECT: Transforming Dreams into Reality with ROS and Gazebo 🚀✨
 
 Welcome to an exhilarating journey into the realm of robotics, where dreams take flight and innovation knows no bounds. In this project, we have harnessed the power of ROS Noetic and Gazebo 11 to create a cutting-edge drone experience that goes beyond the ordinary.
 
