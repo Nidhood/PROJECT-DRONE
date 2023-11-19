@@ -57,12 +57,6 @@ Our project revolves around a meticulously crafted drone simulation, leveraging 
 
 [View test video](https://github.com/Nidhood/PROJECT-DRONE/blob/main/tests_videos/drone_test_%23003.mp4)
 
-## Join the Adventure
-
-We invite you to join us on this thrilling adventure as we explore the endless possibilities of ROS Noetic and Gazebo 11. Whether you're a seasoned roboticist or a curious explorer, our project promises excitement, innovation, and the sheer joy of bringing dreams to life.
-
-Are you ready to redefine what's possible? Let's take flight together! 🚀🎉
-
 ## Technologies Used
 
 Our journey into the realm of robotics has been powered by a set of cutting-edge technologies that have brought our project to life. Here are some key tools that have fueled our exploration:
@@ -97,3 +91,9 @@ Our project stands on the shoulders of giants, drawing inspiration from and buil
 
 4. **[teleop_twist_keyboard](https://github.com/ros-teleop/teleop_twist_keyboard):**
    The teleop_twist_keyboard package has been instrumental in enabling intuitive control of robots using keyboard input, forming the basis for our control mechanisms.
+   
+## Join the Adventure
+
+We invite you to join us on this thrilling adventure as we explore the endless possibilities of ROS Noetic and Gazebo 11. Whether you're a seasoned roboticist or a curious explorer, our project promises excitement, innovation, and the sheer joy of bringing dreams to life.
+
+Are you ready to redefine what's possible? Let's take flight together! 🚀🎉
