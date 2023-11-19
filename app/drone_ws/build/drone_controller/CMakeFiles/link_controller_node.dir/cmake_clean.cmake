@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/app/drone_ws/devel/lib/liblink_controller_node.pdb"
-  "/app/drone_ws/devel/lib/liblink_controller_node.so"
+  "/app/drone_ws/devel/lib/drone_controller/link_controller_node"
+  "/app/drone_ws/devel/lib/drone_controller/link_controller_node.pdb"
   "CMakeFiles/link_controller_node.dir/src/LinkControllerNode.cpp.o"
   "CMakeFiles/link_controller_node.dir/src/main.cpp.o"
 )

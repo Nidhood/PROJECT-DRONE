@@ -7,10 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/app/drone_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/app/drone_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/app/drone_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/app/drone_ws/build'
-export PYTHONPATH="/app/drone_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/app/drone_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/app/drone_ws/src:$ROS_PACKAGE_PATH"

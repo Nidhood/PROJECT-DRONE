@@ -40,10 +40,8 @@ include_directories(
 ## Build ##
 ###########
 
-
-
 include_directories(include)
-add_library(link_controller_node src/LinkControllerNode.cpp src/main.cpp)
+add_executable(link_controller_node src/LinkControllerNode.cpp src/main.cpp)
 add_dependencies(link_controller_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(link_controller_node ${catkin_LIBRARIES})
 

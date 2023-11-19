@@ -91,46 +91,46 @@ link_controller_node_OBJECTS = \
 # External object files for target link_controller_node
 link_controller_node_EXTERNAL_OBJECTS =
 
-/app/drone_ws/devel/lib/liblink_controller_node.so: drone_controller/CMakeFiles/link_controller_node.dir/src/LinkControllerNode.cpp.o
-/app/drone_ws/devel/lib/liblink_controller_node.so: drone_controller/CMakeFiles/link_controller_node.dir/src/main.cpp.o
-/app/drone_ws/devel/lib/liblink_controller_node.so: drone_controller/CMakeFiles/link_controller_node.dir/build.make
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libroslib.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/librospack.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libtf.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libtf2_ros.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libactionlib.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libmessage_filters.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libroscpp.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/librosconsole.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libtf2.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/librostime.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/app/drone_ws/devel/lib/liblink_controller_node.so: /opt/ros/noetic/lib/libcpp_common.so
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/app/drone_ws/devel/lib/liblink_controller_node.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/app/drone_ws/devel/lib/liblink_controller_node.so: drone_controller/CMakeFiles/link_controller_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/app/drone_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /app/drone_ws/devel/lib/liblink_controller_node.so"
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: drone_controller/CMakeFiles/link_controller_node.dir/src/LinkControllerNode.cpp.o
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: drone_controller/CMakeFiles/link_controller_node.dir/src/main.cpp.o
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: drone_controller/CMakeFiles/link_controller_node.dir/build.make
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libroslib.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/librospack.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libtf.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libtf2_ros.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libactionlib.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libmessage_filters.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libroscpp.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/librosconsole.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libtf2.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/librostime.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /opt/ros/noetic/lib/libcpp_common.so
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/app/drone_ws/devel/lib/drone_controller/link_controller_node: drone_controller/CMakeFiles/link_controller_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/app/drone_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /app/drone_ws/devel/lib/drone_controller/link_controller_node"
 	cd /app/drone_ws/build/drone_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/link_controller_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-drone_controller/CMakeFiles/link_controller_node.dir/build: /app/drone_ws/devel/lib/liblink_controller_node.so
+drone_controller/CMakeFiles/link_controller_node.dir/build: /app/drone_ws/devel/lib/drone_controller/link_controller_node
 
 .PHONY : drone_controller/CMakeFiles/link_controller_node.dir/build
 
