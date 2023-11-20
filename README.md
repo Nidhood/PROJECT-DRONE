@@ -6,6 +6,7 @@ Welcome to an exhilarating journey into the realm of robotics, where dreams take
 
 <p align="center">
   <img src="https://github.com/Nidhood/PROJECT-DRONE/blob/main/images/image_test_%23001.png" width="400" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/Nidhood/PROJECT-DRONE/blob/main/images/image_test_%23002.png" width="400" /> 
 </p>
 
@@ -60,13 +61,7 @@ Our project revolves around a meticulously crafted drone simulation, leveraging 
 
 ## Test
 
-<p align="center">
-  <video width="640" height="360" controls>
-    <source src="tests_videos/drone_test_#004.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
-
+[Ver el video](tests_videos/drone_test_#004.mp4)
 
 ## Technologies Used
 
