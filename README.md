@@ -61,7 +61,7 @@ Our project revolves around a meticulously crafted drone simulation, leveraging 
 
 ## Test
 
-![Ver el video](tests_videos/drone_test_#004.mp4)
+![Ver el video](tests_videos/drone_test__004.gif)
 
 ## Technologies Used
 
