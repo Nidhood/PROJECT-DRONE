@@ -6,7 +6,6 @@ Welcome to an exhilarating journey into the realm of robotics, where dreams take
 
 <p align="center">
   <img src="https://github.com/Nidhood/PROJECT-DRONE/blob/main/images/image_test_%23001.png" width="400" />
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/Nidhood/PROJECT-DRONE/blob/main/images/image_test_%23002.png" width="400" /> 
 </p>
 
