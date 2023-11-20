@@ -4,6 +4,12 @@ Welcome to an exhilarating journey into the realm of robotics, where dreams take
 
 ## About the Project
 
+<p align="center">
+  <img src="https://github.com/Nidhood/PROJECT-DRONE/blob/main/images/image_test_%23001.png" width="400" />
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Nidhood/PROJECT-DRONE/blob/main/images/image_test_%23002.png" width="400" /> 
+</p>
+
 Our project revolves around a meticulously crafted drone simulation, leveraging the robust capabilities of ROS Noetic for seamless communication and coordination. Gazebo 11, our playground of possibilities, breathes life into our virtual environment, providing a dynamic and realistic arena for our drone to soar.
 
 ## Key Features
@@ -55,7 +61,13 @@ Our project revolves around a meticulously crafted drone simulation, leveraging 
 
 ## Test
 
-[View test video](https://github.com/Nidhood/PROJECT-DRONE/blob/main/tests_videos/drone_test_%23003.mp4)
+<p align="center">
+  <video width="640" height="360" controls>
+    <source src="tests_videos/drone_test_#004.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 
 ## Technologies Used
 
